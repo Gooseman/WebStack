@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+     font-family: arial, Helvetica, sans-serif;
+}
+
+ /* Header bar */
+#header-bar {
+    background-color: #AADDAA;
+    border-radius: 0;
+    border-top: 2px;
+    border-bottom: 2px;
+    border-style: solid;
+}
+#header-bar .navbar-brand {
+    /* margin: 0px auto 20px 20px; */
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #000;
+}
+
+#menu-navbar-collapse a {
+    color: #000;
+    background-color: #BBDDFF;
+}
+#menu-navbar-collapse a:hover {
+    background-color: #99CCBB;
+}
+#menu-navbar-collapse hr {
+    padding: 0px;
+    margin: 0px auto 0px;
+    width: 98%;
+    border-color: #AAA;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #000;
+}
+
+/* Menu title */
+.menu-title {
+    font-size:1.8em;
+    font-weight: bold;
+    padding: 0px 0px 20px 0px;
+}
+
+ /* Menu items */
+.menu-section {
+    background-color: #AF8888;
+    margin-bottom: 20px;
+}
+.menu-section header {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.menu-section p {
+    font-weight: 600;
+}
